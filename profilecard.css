@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("https://cdn.discordapp.com/attachments/904423516768698458/939302325472886804/bannerbydessup10kthx.png");
+    background-size: cover;
+    font-family: arial;
+}
+.kart{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 320px;
+    background-color: brown;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.resim{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.resim img{
+    width: 100%;
+    transition: 5s;
+    transform-origin: top right;
+}
+.kart:hover .resim img{
+    transform: scale(1.3);
+}
+.kart ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.kart:hover ul{
+    height: 50px;
+}
+.kart ul li{
+    list-style: none;
+    width: 20%;
+    height: 50px;
+}
+.kart ul li a{
+    display: block;
+    line-height: 50px;
+    text-align: center;
+    background: #fff;
+    color: brown;
+    font-size: 20px;
+    border-right: 1px solid brown;
+}
+.kart ul li:last-child a{
+    border-right: none;
+}
+.kart ul li a:hover{
+    background: brown;
+    color: #fff;
+}
+.içerik{
+    padding: 20px 10px;
+    text-align: center;
+}
+.içerik h3{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+.içerik p{
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 15px;
+}
